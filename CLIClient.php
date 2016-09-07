@@ -3,9 +3,9 @@
  * Autor: mgp25                      *
  * Github: https://github.com/mgp25  *
  *************************************/
-require_once '../src/whatsprot.class.php';
+require __DIR__ . '/vendor/autoload.php';
 //Change the time zone if you are in a different country
-date_default_timezone_set('Europe/Madrid');
+date_default_timezone_set('Europe/Istanbul');
 
 echo "####################################\n";
 echo "#                                  #\n";

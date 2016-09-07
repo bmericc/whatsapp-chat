@@ -1,11 +1,10 @@
 <?php
 
 set_time_limit(10);
-require_once __DIR__.'/../src/whatsprot.class.php';
-require_once __DIR__.'/../src//events/MyEvents.php';
+require __DIR__ . '/vendor/autoload.php';
 
 //Change to your time zone
-date_default_timezone_set('Europe/Madrid');
+date_default_timezone_set('Europe/Istanbul');
 
 //######### DO NOT COMMIT THIS FILE WITH YOUR CREDENTIALS ###########
 ///////////////////////CONFIGURATION///////////////////////

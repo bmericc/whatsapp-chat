@@ -1,7 +1,6 @@
 <?php
 
-require_once '../src/Registration.php';
-require '../src//events/MyEvents.php';
+require __DIR__ . '/vendor/autoload.php';
 
 $debug = true;
 

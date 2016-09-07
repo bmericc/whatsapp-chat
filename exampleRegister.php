@@ -6,7 +6,7 @@
  * Once you have your password you will then be able to use it in
  * examplefunctional.php to actually send and receive messages.
  */
-require_once '../src/Registration.php';
+require __DIR__ . '/vendor/autoload.php';
 
 /*
  * Config data.

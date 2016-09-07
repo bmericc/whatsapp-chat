@@ -1,6 +1,6 @@
 <?php
 
-require_once '../src/Registration.php';
+require __DIR__ . '/vendor/autoload.php';
 
 $debug = true;
 

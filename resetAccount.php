@@ -1,6 +1,6 @@
 <?php
 
-require_once '../src/whatsprot.class.php';
+require __DIR__ . '/vendor/autoload.php';
 
 $debug = false;
 
