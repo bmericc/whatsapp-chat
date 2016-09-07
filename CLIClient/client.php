@@ -5,16 +5,15 @@
  *************************************/
 
  // ################ CONFIG PATHS #####################
- require_once '../../src/whatsprot.class.php';
- require '../../src//events/MyEvents.php';
+require __DIR__ . '/../vendor/autoload.php';
  // ###################################################
 
  // ############## CONFIG TIMEZONE ###################
- date_default_timezone_set('Europe/Madrid');
+date_default_timezone_set('Europe/Istanbul');
  // ##################################################
 
 //  ############## DEBUG DEV MODE ####################
- $debug = false;
+ $debug = true;
 //  ##################################################
 
 // ############### MESSAGE DB PATH ###################
@@ -53,7 +52,7 @@ if ((!file_exists($fileName))) {
     echo "========================\n\n\n";
     echo 'Your number > ';
     $number = trim(fgets(STDIN));
-    $w = new WhatsProt($number, $nickname, $debug);
+    $w = new  Registration($number, $debug);
 
     try {
         $result = $w->codeRequest('sms');
