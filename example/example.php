@@ -1,7 +1,7 @@
 <?php
 
 set_time_limit(10);
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 //Change to your time zone
 date_default_timezone_set('Europe/Istanbul');
