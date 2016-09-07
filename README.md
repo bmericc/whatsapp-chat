@@ -1,9 +1,8 @@
-# whatsapp-chat-api examples
-
 # Warning
 WhatsApp is trying to register and send messages I've tested. But WhatsApp instantly blocks connections.
 
 ----------
+## whatsapp chat-api examples
 
 chat-api and examples by https://github.com/mgp25/Chat-API/tree/master/examples
 
@@ -24,11 +23,11 @@ According to [the company](http://www.whatsapp.com/):
 
 Jan. 2015: 30 billion messages per day, ~700 million users.
 
-# License
+## License
 
 As of November 1, 2015 Chat API is licensed under the GPLv3+: http://www.gnu.org/licenses/gpl-3.0.html.
 
-# Terms and conditions
+## Terms and conditions
 
 - You will NOT use this API for marketing purposes (spam, massive sending...).
 - We do NOT give support to anyone that wants this API to send massive messages or similar.
