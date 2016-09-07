@@ -67,7 +67,7 @@ $config['YOURNAME'] = [
 /**
  * NOTHING ELSE TO EDIT BELOW THIS LINE.
  */
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 /**
  * For the future, other ways of getting contacts from various sources
