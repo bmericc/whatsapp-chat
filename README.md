@@ -1,4 +1,11 @@
-# whatsapp-chat
+# whatsapp-chat-api examples
+
+# Warning
+WhatsApp is trying to register and send messages I've tested. But WhatsApp instantly blocks connections.
+
+----------
+
+chat-api and examples by https://github.com/mgp25/Chat-API/tree/master/examples
 
 ----------
 ### Installation
