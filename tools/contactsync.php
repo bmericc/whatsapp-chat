@@ -2,7 +2,7 @@
 
 set_time_limit(30);
 
-require_once '../src/whatsprot.class.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 $username = $_GET['phone'];
 $password = $_GET['pass'];

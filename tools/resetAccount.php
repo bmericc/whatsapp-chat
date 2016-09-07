@@ -2,7 +2,7 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-$debug = false;
+$debug = true;
 
 echo "####################\n";
 echo "#                  #\n";
@@ -36,7 +36,7 @@ for ($i; $i < 5; $i++) {
 
 $w->disconnect();
 
-unlink("../src/wadata/id.$username.dat");
-unlink("../src/wadata/nextChallenge.$username.dat");
+unlink("wadata/id.$username.dat");
+unlink("wadata/nextChallenge.$username.dat");
 
 echo "\n\n OK! Now use registerTool.php \n\n";

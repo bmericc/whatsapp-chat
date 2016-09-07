@@ -9,11 +9,11 @@ date_default_timezone_set('Europe/Istanbul');
 //######### DO NOT COMMIT THIS FILE WITH YOUR CREDENTIALS ###########
 ///////////////////////CONFIGURATION///////////////////////
 //////////////////////////////////////////////////////////
-$username = '**your phone number**';                      // Telephone number including the country code without '+' or '00'.
-$password = '**server generated whatsapp password**';     // Use registerTool.php or exampleRegister.php to obtain your password
-$nickname = '**your nickname**';                          // This is the username (or nickname) displayed by WhatsApp clients.
-$target = "**contact's phone number**";                   // Destination telephone number including the country code without '+' or '00'.
-$debug = false;                                           // Set this to true, to see debug mode.
+$username = "XXXXX";
+$password = "XXXXX";
+$nickname = "XXXX";                          // This is the username (or nickname) displayed by WhatsApp clients.
+$target = "XXXX";                   // Destination telephone number including the country code without '+' or '00'.
+$debug = true;                                           // Set this to true, to see debug mode.
 ///////////////////////////////////////////////////////////
 
 function fgets_u($pStdn)
@@ -97,6 +97,7 @@ $w->sendMessage($target, 'Guess the number :)');
 $w->sendMessage($target, 'Sent from WhatsApi at '.date('H:i'));
 
 while ($w->pollMessage());
+
 
 /*
  * You can create a ProcessNode class (or whatever name you want) implementing NewMsgBindInterface

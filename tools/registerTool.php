@@ -16,7 +16,7 @@ if (!preg_match('!^\d+$!', $username)) {
     echo "Wrong number. Do NOT use '+' or '00' before your number\n";
     exit(0);
 }
-$identityExists = file_exists("../src/wadata/id.$username.dat");
+$identityExists = file_exists("wadata/id.$username.dat");
 
 $w = new Registration($username, $debug);
 
