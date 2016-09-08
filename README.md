@@ -15,6 +15,20 @@ composer install
 
 - **Requires:** [Chat-API](https://github.com/mgp25/Chat-API)
 
+### Usage
+```sh
+cd tools
+php registerTool.php
+```
+After recording the user name and password.
+Change example/example.php
+```php
+$username = "XXXXX";
+$password = "XXXXX";
+$nickname = "XXXX"; 
+$target = "XXXX"; 
+```
+And run example.php
 
 ### What is WhatsApp?
 According to [the company](http://www.whatsapp.com/):
