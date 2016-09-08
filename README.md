@@ -28,7 +28,10 @@ $password = "XXXXX";
 $nickname = "XXXX"; 
 $target = "XXXX"; 
 ```
-And run example.php
+And 
+```sh
+php example.php
+```
 
 ### What is WhatsApp?
 According to [the company](http://www.whatsapp.com/):
